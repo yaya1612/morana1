@@ -1,0 +1,415 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+   height: 100vh;
+ background-color: #dcdef0;
+
+}
+.nav{
+    width:100% ;
+    height: 85px;
+    background-color: #E4E6F4;
+    z-index: 1;
+}
+.logo{
+    width: 100%;
+    padding-left: 90px;
+    justify-content: center;
+}
+.logo img{
+    width: 7.5%;
+    border-radius: 50%;
+}
+header{
+ display: flex;
+ padding-right: 100px;
+ justify-content: space-between;
+align-items: center;
+font-size: 20px;
+font-weight: 450;
+}
+li{
+    list-style: none;
+    padding: 0 5px;
+}
+li a{
+    color: #666774;
+    padding:0 5px ;
+ text-decoration: none;
+font-weight: 500;
+}
+a:hover{
+    color: #0B8376;
+    transition: 0.2s;
+}
+.home{
+width: 100%;
+    display: flex;
+}
+text{
+    width: 60%;
+
+}
+.home h2{
+    font-size: 60px;
+     font-family: sans-serif;
+     padding-left: 120px;
+     padding-top: 15px;
+}
+.home h3{
+    font-size: 50px;
+    font-family: sans-serif;
+    padding-left: 120px;
+    color: #098378;
+}
+.home p{
+    font-size: 18px;
+    font-family: 'roboto';
+    color: rgb(151, 151, 151);
+    padding-left: 115px;
+    padding-top: 15px;
+}
+h4{
+    font-size: 22px;
+    padding-top: 180px;
+    padding-left: 120px;
+    color: #2C3340;
+}
+.text button{
+    background-image: url(button.png);
+    background-color:transparent ;
+    color: #098378;
+    border: 0;
+    padding: 14px 80px 14px 75px;
+    font-size: 16px;
+    
+
+}
+.btn{
+    padding-left: 120px;
+    padding-top: 30px;
+    margin-left: 80px;
+}
+.photo{
+    width:48% ;
+    padding-left: 290px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+.home .photo img{
+    width: 100%;
+    border-radius: 3%;
+}
+.about{
+    height: 100vh; 
+     
+    background-color:rgb(241, 241, 241) ;
+}
+.about p{
+color: black;
+
+}
+.con{
+    display: flex;
+    
+        
+}
+.okay h4{
+    font-family: sans-serif;
+color: black;
+font-size: 25px;
+padding-bottom: 30px;
+}
+.con .photo{
+    justify-content: center;
+    width: 40%;
+    padding-left: 80px;
+    padding-top: 180px;
+}
+.con .photo img{
+    width: 100%;
+    border-radius: 2%;
+}
+
+.con .text{
+   width: 55%;
+    
+}
+.con .text p{
+    font-size:25px;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+
+}
+.con .text h3{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding-bottom: 25px;
+
+
+}
+.con .text h2{
+    color: #098378;
+    font-size: 35px;
+    
+}
+.okay{
+    padding-left: 100px;
+}
+.okay h2{
+    padding-top: 20px;
+}
+.okay h3{
+    padding-top: 20px;
+}
+
+.yarab{
+    display: flex;
+    padding-top: 110px;
+    
+}
+.yarab .one{
+    background-color: white;
+    color: #000000;
+    width: 550px;
+    height: 150px;
+    border-radius: 5%;
+    margin: 10px;
+
+}
+.yarab .two{
+    margin: 10px;
+
+    background-color: white;
+    color: #000000;
+    width: 550px;
+    height: 150px;
+    border-radius: 5%;
+}
+.yarab .three{
+    margin: 10px;
+
+    background-color: white;
+    color: #000000;
+    width: 550px;
+    height: 150px;
+    border-radius: 5%;
+
+}
+.yarab .four{
+    background-color: white;
+    color: #000000;
+    width: 550px;
+    height: 150px;
+    border-radius: 5%;
+    margin: 10px;
+
+}
+.yarab .one p{
+    color: #000000;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 22px;
+}
+.yarab .two p{
+    color: #000000;
+    text-align: center;
+    padding-top: 65px;
+    font-size: 22px;
+
+}
+.yarab .three p{
+    color: #000000;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 22px;
+
+
+}
+.yarab .four p{
+    color: #000000;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 22px;
+
+}
+
+.about .card {
+    background-color: rgb(151, 5, 5);
+    border-radius: 0%;
+    width: 250px;
+    height: 350px;
+}
+.con{
+    padding-left: ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shop{
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+}
+.shop .tit{
+  padding-left: 35%;
+}
+.shop .tit h1{
+     font-size: 60px;
+}
+.shop h5{
+ color: #979797;
+ font-size: 18px;
+ text-align: center;
+ padding-right: 460px;
+}
+.cont{
+    width: 100%;
+    padding-top: 60px;
+    padding-left: 100px;
+}
+.card{
+    background-color: white;
+    width: 325px;
+    height: 430px;
+    border-radius: 5%;
+    text-align: left;
+    position: relative;
+    margin: 65px;
+    border: 2px solid #ECECEC;
+
+}
+.shop .text{
+    position: absolute;
+    padding-top: 330px;
+    padding-right: 180px;
+}
+.card span{
+    color: #979797;
+    font-size: 15px;
+    padding-left: 3px;
+}
+
+
+.card  img{
+    margin-bottom: 5px;
+    height: 315px;
+    width: 95%;
+    border-radius: 5%;
+    background-color: #F1F1F1;
+    text-align: center;
+    margin-left: 8px;
+    margin-top:5px ;
+}
+.card .photo{
+    padding-right: 50px;
+    position: absolute;
+}
+.shop .cards{
+    display: flex;
+    width: 100%;
+}
+.card p{
+    font-size: 20px;
+    padding-left: 3px;
+
+}
+.card h3{
+    color: #098378;
+    padding-left: 3px;
+    padding-top: 15px;
+}
+.shop h1{
+    padding-top: 250px;
+}
+.shop h5{
+    padding-top: 20px;
+}
+.cont{
+    display: flex;
+}
+.contact{
+    height: 100vh;
+    background-color: black;
+}
+.contact .tit{
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 160px;
+}
+.ard{
+    color: white;
+    padding-top: 40px;
+    padding-left: 140px;
+}
+.ard a{
+    text-decoration: none;
+    color: white;
+}
+.ard span{
+    color: #098378;
+}
+.message{
+    background-color: white;
+    width: 400px;
+    height: 350px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.message p{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.message p::after{
+    content: "";
+    width: 280px;
+    height: 2px;
+    position: absolute;
+    background-color: #000000;
+    top: 100%;
+    left: 0%;
+}
+.left{
+    padding-left: 430px;
+}
+.message a{
+    background-color:#098378 ;
+    width: 50px;
+    height: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+.btn{
+    width: 100%;
+    padding-left: 20px;
+}
